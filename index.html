@@ -43,7 +43,7 @@
       id="ftco-navbar"
     > 
     
-      <div id="google_translate_element"></div>
+     <div id="google_translate_element"></div>
       <div class="container">
         
         <a class="navbar-brand" href="index.html">Lelou Solidarity Inc</a>
@@ -1498,30 +1498,6 @@ community center:
         />
       </svg>
     </div>
-   <script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-    pageLanguage: 'en',
-    includedLanguages: 'en,fr',
-    layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL,
-    autoDisplay: false,
-    multilanguagePage: true
-  }, 'google_translate_element');
-  
-  // Force translation if URL has #googtrans(en|fr) hash
-  if(window.location.hash) {
-    var hash = window.location.hash.substring(1);
-    if(hash.startsWith('googtrans')) {
-      var lang = hash.split('|')[1].replace(')', '');
-      var iframe = document.createElement('iframe');
-      iframe.style.display = 'none';
-      iframe.src = '//translate.google.com/translate?hl=en&sl=auto&tl=' + lang + '&u=' + encodeURIComponent(window.location.href);
-      document.body.appendChild(iframe);
-    }
-  }
-}
-</script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script type="text/javascript">
 function googleTranslateElementInit() {
   new google.translate.TranslateElement({
